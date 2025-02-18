@@ -12,9 +12,11 @@ Next.js 15'da `routing (yo'naltirish)` bu foydalanuvchi qaysi URL manziliga kets
 
 - Statik yo‘nalishlar `app` papkasida `.tsx` yoki `.jsx` fayl ochish orqali yaratiladi.
 
+```
 /app
-├── page.tsx # Asosiy sahifa ("/")
+├── page.tsx      # Asosiy sahifa ("/")
 ├── about
-│ ├── page.tsx # "/about" sahifasi
+│   ├── page.tsx  # "/about" sahifasi
 ├── contact
-│ ├── page.tsx # "/contact" sahifasi
+│   ├── page.tsx  # "/contact" sahifasi
+```
